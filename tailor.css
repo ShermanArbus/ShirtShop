@@ -1,22 +1,40 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 main {
   border: 1px solid black;
-  width: 40%;
+  padding: 0;
+  width: 20em;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 ul {
   border: 1px solid black;
   list-style-type: none;
   clear: both;
+  margin: 0;
+  padding: 0;
+
+  /*box-sizing: border-box;
+  display: block; */
 }
 
 img {
   border: 1px solid black;
   display: block;
+  padding: 1em;
+  /*margin: 0;*/
+  box-sizing: border-box;
+  width: 20em;
 }
 
 a {
+  box-sizing: border-box;
   color: green;
   text-decoration: none;
 }
@@ -25,14 +43,23 @@ a {
   font-weight: bold;
   float: right;
   text-align: right;
+  width: 50%;
+}
+
+.styleName {
+  width: 50%;
+  text-align: left;
+  width: 50%;
+  clear: both;
 }
 
 li {
   box-sizing: border-box;
   float: left;
-  border-right: 1px solid black;
-  margin: 0;
+  border: 1px solid black;
+  /*margin: 0;*/
   padding: 1em;
   width: 4em;
   text-align: center;
+  margin: 0;
 }

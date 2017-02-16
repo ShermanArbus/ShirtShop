@@ -1,0 +1,14 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+main {
+  border: 1px solid black;
+}
+
+ul {
+  border: 1px solid black;
+}
+
+img {
+  border: 1px solid black;
+  display: block;
+}

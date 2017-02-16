@@ -23,8 +23,14 @@ a {
 
 .price {
   font-weight: bold;
+  float: right;
+  text-align: right;
 }
 
 li {
+  box-sizing: border-box;
   float: left;
+  border-right: 1px solid black;
+  margin: 0;
+  padding: 1em;
 }

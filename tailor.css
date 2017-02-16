@@ -8,6 +8,7 @@ main {
 ul {
   border: 1px solid black;
   list-style-type: none;
+  clear: both;
 }
 
 img {
@@ -22,4 +23,8 @@ a {
 
 .price {
   font-weight: bold;
+}
+
+li {
+  float: left;
 }

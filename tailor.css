@@ -9,7 +9,7 @@ main {
   border: 1px solid black;
   padding: 0;
   width: 20em;
-  margin: 0;
+  margin: 2em;
   box-sizing: border-box;
 }
 
@@ -20,6 +20,7 @@ ul {
   margin: 0;
   padding: 0;
   width: 20em;
+  color: green;
 
   /*box-sizing: border-box;
   display: block; */
@@ -45,6 +46,7 @@ a {
   float: right;
   text-align: right;
   width: 50%;
+  color: green;
 }
 
 .styleName {
@@ -52,6 +54,7 @@ a {
   text-align: left;
   width: 50%;
   clear: both;
+  color: green;
 }
 
 li {

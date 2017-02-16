@@ -5,13 +5,19 @@ body {
   padding: 0;
 }
 
-main {
+/*main {
   border: 1px solid black;
   padding: 0;
   width: 20em;
   margin: 2em;
   box-sizing: border-box;
-}
+}*/
+
+/*main::after {
+  content: '';
+  display: block;
+  clear: both;
+}*/
 
 ul {
   border: 1px solid black;
@@ -19,7 +25,8 @@ ul {
   clear: both;
   margin: 0;
   padding: 0;
-  width: 20em;
+  /*width: 20em;*/
+  width: 25%;
   color: green;
 
   /*box-sizing: border-box;
@@ -32,7 +39,7 @@ img {
   padding: 1em;
   /*margin: 0;*/
   box-sizing: border-box;
-  width: 20em;
+  width: 25%;
 }
 
 a {
@@ -40,7 +47,6 @@ a {
   color: green;
   text-decoration: none;
 }
-
 .price {
   font-weight: bold;
   float: right;
@@ -62,10 +68,12 @@ li {
   float: left;
   border: 1px solid black;
   /*margin: 0;*/
-  padding: 1em;
-  width: 4em;
+  padding: .25em;
+  width: 20%;
+  height: 2em;
   text-align: center;
   margin: 0;
+  font-size: 1em;
 }
 
 /*li a:hover {
@@ -88,9 +96,15 @@ li {
 }
 
 .color_menu {
-  width: 8em;
+  width: 25%;
 }
 
 .size_menu {
-  width: 4em;
+  width: 25%;
+}
+
+.fa_repeat {
+  width: 5%;
+  height: 5%;
+  float: right;
 }

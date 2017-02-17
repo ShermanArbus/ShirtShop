@@ -6,7 +6,7 @@ body {
   font-family: arial, sans-serif;
 }
 main {
-  margin: 5em;
+  margin: auto;
   padding: 0;
   box-sizing: border-box;
 }
@@ -93,8 +93,6 @@ li {
 .fa-repeat {
   padding: 0.25em;
   float: right;
-  border-left: 1px solid black;
-  border-bottom: 1px solid black;
   font-size: 1em;
   position: absolute;
 }
@@ -114,14 +112,15 @@ li {
 .shirt_back {
   position: absolute;
   padding: 1em;
+
 }
  .shirt_front:hover {
-   transform: ;
-   transition: transform 1s ease;
+   height: 0;
+   width: 0;
 
  }
- .shirt_back:hover {
- }
+ /*.shirt_back:hover {
+ }*/
 .shirt_box {
   position: relative;
   clear: both;

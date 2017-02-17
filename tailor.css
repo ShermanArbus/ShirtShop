@@ -26,6 +26,13 @@ main {
   box-sizing: border-box;
 }
 
+.shirt_box {
+  padding: 0;
+  border: 1px solid black;
+  box-sizing: border-box;
+  width: 15em;
+}
+
 ul {
   /*border: 1px solid black;*/
   list-style-type: none;
@@ -42,9 +49,9 @@ ul {
 }
 
 img {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   display: block;
-  padding: 1em;
+  padding: 0em 1em 1em 1em ;
   margin: 0;
   box-sizing: border-box;
   width: 15em;
@@ -66,13 +73,15 @@ a {
   text-align: right;
   width: 50%;
   color: green;
+  padding: 1em;
+
 }
 
 .styleName {
   width: 50%;
   text-align: left;
-  clear: both;
   color: green;
+  padding: 1em;
 }
 
 li {
@@ -88,10 +97,11 @@ li {
   font-size: 1em;
 }
 
-li a:hover {
+/*.hover_box:hover {
   background-color: green;
   color: white;
-}
+  margin: 0;
+}*/
 
 .fa-exchange:hover {
   background-color: green;
@@ -106,4 +116,20 @@ li a:hover {
 .fa-shopping-cart:hover {
   background-color: green;
   color: white;
+}
+.fa-repeat {
+  padding: 0.25em;
+  float: right;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  font-size: 1em;
+}
+.size_text {
+  padding: 1em;
+}
+
+.size_menu {
+  float: left;
+  margin: 0:
+  
 }

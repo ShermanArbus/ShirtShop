@@ -1,0 +1,74 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+body {
+  color: rgb(111,222,222);
+
+}
+/*.shirt_front {
+  position: absolute;
+  padding: 1em;
+
+}
+.shirt_back {
+  position: absolute;
+  padding: 1em;
+}*/
+
+a {
+  box-sizing: border-box;
+  color: rgb(111, 222, 222);
+  text-decoration: none;
+  padding: 1em;
+}
+
+img {
+  border: 1px solid black;
+  display: block;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 15em;
+}
+
+ul {
+  box-sizing: border-box;
+  border: 1px solid black;
+  list-style-type: none;
+  clear: both;
+  margin: 0;
+  padding: 0;
+  color: rgb(111, 222, 222);
+  width: 15em;
+}
+
+  li {
+    box-sizing: border-box;
+    float: left;
+    border: 1px solid black;
+    width: 3em;
+    height: 3em;
+    text-align: center;
+    margin: 0;
+    font-size: 1em;
+  }
+
+  .price {
+    box-sizing: border-box;
+    font-weight: bold;
+    float: right;
+    text-align: right;
+    width: 50%;
+    color: rgb(111,222,222);
+    padding: 1em;
+
+  }
+
+  .styleName {
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+    text-align: left;
+    color: rgb(111,222,222);
+    padding: 1em;
+  }

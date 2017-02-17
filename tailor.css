@@ -131,5 +131,7 @@ li {
 .size_menu {
   float: left;
   margin: 0:
-  
 }
+ .shirt_box:hover {
+   transition: width 0 ease;
+ }

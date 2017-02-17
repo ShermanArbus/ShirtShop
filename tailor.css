@@ -107,10 +107,15 @@ li {
   width: 3em;
   top: -193px;
   left: 96px;
+  background-color: rgb(222,222,111);
 }
 
 .color_menu {
+  position: absolute;
+  left: 144px;
+  top: -97px;
   width: 6em;
+  background-color: rgb(222,222,111);
 }
 .shirt_front {
   padding: 1em;

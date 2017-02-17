@@ -9,6 +9,7 @@ main {
   margin: auto;
   padding: 0;
   box-sizing: border-box;
+  width: 30%;
 }
 
 .shirt_box {
@@ -44,8 +45,8 @@ a {
   padding: 1em;
 }
 
-.shirtInfo {
-  width: 15em;
+.shirt_info {
+  position: relative;
 }
 .price {
   font-weight: bold;
@@ -101,16 +102,21 @@ li {
 }
 
 .size_menu {
-  float: left;
-  margin: 0:
+  position: absolute;
+  margin: 0;
+  width: 3em;
+  top: -193px;
+  left: 96px;
+}
+
+.color_menu {
+  width: 6em;
 }
 .shirt_front {
-  position: absolute;
   padding: 1em;
 
 }
 .shirt_back {
-  position: absolute;
   padding: 1em;
 
 }
@@ -122,6 +128,4 @@ li {
  /*.shirt_back:hover {
  }*/
 .shirt_box {
-  position: relative;
-  clear: both;
 }

@@ -123,6 +123,8 @@ li {
   border-left: 1px solid black;
   border-bottom: 1px solid black;
   font-size: 1em;
+  float: right;
+  position: absolute;
 }
 .size_text {
   padding: 1em;
@@ -134,19 +136,27 @@ li {
 }
 .shirt_front {
   /*transform: : width 0;*/
+  position: absolute;
 
 }
 .shirt_back {
-  width: 0;
+  position: absolute;
+  /*width: 0;*/
   /*transform: : width 100%;*/
 
 
 
 }
  .shirt_front:hover {
-   transform: scale(0,0);
-   transition: transform 3s ease;
+   transform: rotate(90deg);
+   transition: transform 1s ease;
+
+   /*transition: max-width 0;*/
  }
  .shirt_back:hover {
-   transition: transform 1s ease
+?   /*transition: min-width 100%;*/
  }
+.shirt_box {
+  position: relative;
+  clear: both;
+}

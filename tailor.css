@@ -76,6 +76,14 @@ li {
   font-size: 1em;
 }
 
+li a:hover {
+  background-color: rgb(111,222,222);
+  color: white;
+}
+/*.fa-user-circle:hover {
+  background-color: rgb(111,222,222);
+  color: white;
+}
 
 .fa-exchange:hover {
   background-color: rgb(111,222,222);
@@ -91,12 +99,23 @@ li {
   background-color: rgb(111,222,222);
   color: white;
 }
+}*/
+
+.color_box:hover {
+
+}
+.size_box:hover {
+
+}
+
+
 .fa-repeat {
   padding: 0.25em;
   float: right;
   font-size: 1em;
   position: absolute;
 }
+
 .size_menu {
   position: absolute;
   margin: 0;

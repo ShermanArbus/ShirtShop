@@ -9,7 +9,7 @@ main {
   margin: auto;
   padding: 0;
   box-sizing: border-box;
-  width: 30%;
+  width: auto;
 }
 
 .shirt_box {
@@ -19,7 +19,7 @@ main {
   width: 15em;
 }
 
-ul {
+/*ul {
   box-sizing: border-box;
   list-style-type: none;
   clear: both;
@@ -27,7 +27,7 @@ ul {
   padding: 0;
   color: rgb(111,222,222);
   width: 15em;
-}
+}*/
 
 img {
   border: 1px solid black;
@@ -35,7 +35,6 @@ img {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  width: 15em;
 }
 
 a {
@@ -47,6 +46,16 @@ a {
 
 .shirt_info {
   position: relative;
+  border: 1px solid black;
+}
+
+.style_price {
+  box-sizing: border-box;
+  display: block;
+  width: 15em;
+  margin: 0;
+  padding: 0em;
+  clear: both;
 }
 .price {
   font-weight: bold;
@@ -55,17 +64,19 @@ a {
   width: 50%;
   color: rgb(111,222,222);
   padding: 1em;
+  margin: 0;
 
 }
 
 .styleName {
+  margin: 0;
   width: 50%;
   text-align: left;
   color: rgb(111,222,222);
   padding: 1em;
 }
 
-li {
+/*li {
   box-sizing: border-box;
   float: left;
   border: 1px solid black;
@@ -79,7 +90,7 @@ li {
 li a:hover {
   background-color: rgb(111,222,222);
   color: white;
-}
+}*/
 /*.fa-user-circle:hover {
   background-color: rgb(111,222,222);
   color: white;
@@ -101,9 +112,6 @@ li a:hover {
 }
 }*/
 
-.color_box:hover {
-
-}
 
 .fa-repeat {
   padding: 0.25em;
@@ -112,11 +120,11 @@ li a:hover {
   position: absolute;
 }
 
-.size_hover:hover~.size_menu {
+/*.size_hover:hover~.size_menu {
   display: block;
 }
-
-.size_menu {
+*/
+/*.size_menu {
   display: none;
   position: absolute;
   margin: 0;
@@ -133,7 +141,7 @@ li a:hover {
   top: -97px;
   width: 6em;
   background-color: rgb(222,222,111);
-}
+}*/
 .shirt_front {
   padding: 1em;
 
@@ -141,13 +149,4 @@ li a:hover {
 .shirt_back {
   padding: 1em;
 
-}
- .shirt_front:hover {
-   height: 0;
-   width: 0;
-
- }
- /*.shirt_back:hover {
- }*/
-.shirt_box {
 }

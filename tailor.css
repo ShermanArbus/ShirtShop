@@ -39,6 +39,7 @@ img {
 
 a {
   box-sizing: border-box;
+  display: block;
   color: rgb(111,222,222);
   text-decoration: none;
   padding: 1em;
@@ -63,7 +64,6 @@ a {
   font-weight: bold;
   float: right;
   text-align: right;
-  width: 50%;
   color: rgb(111,222,222);
   padding: 1em;
   margin: 0;
@@ -73,7 +73,6 @@ a {
 .styleName {
   float: left;
   margin: 0;
-  width: 50%;
   text-align: left;
   color: rgb(111,222,222);
   padding: 1em;
@@ -90,11 +89,12 @@ a {
   margin: 0;
   font-size: 1em;
 }
-
-li a:hover {
+*/
+a:hover {
   background-color: rgb(111,222,222);
   color: white;
-}*/
+}
+
 /*.fa-user-circle:hover {
   background-color: rgb(111,222,222);
   color: white;

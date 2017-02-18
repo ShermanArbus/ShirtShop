@@ -42,6 +42,7 @@ a {
   color: rgb(111,222,222);
   text-decoration: none;
   padding: 1em;
+  border: 1px solid black;
 }
 
 .shirt_info {
@@ -50,6 +51,7 @@ a {
 }
 
 .style_price {
+  border: 1px solid black;
   box-sizing: border-box;
   display: block;
   width: 15em;
@@ -69,11 +71,13 @@ a {
 }
 
 .styleName {
+  float: left;
   margin: 0;
   width: 50%;
   text-align: left;
   color: rgb(111,222,222);
   padding: 1em;
+  clear: both;
 }
 
 /*li {

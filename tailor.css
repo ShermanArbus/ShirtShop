@@ -104,10 +104,6 @@ li a:hover {
 .color_box:hover {
 
 }
-.size_box:hover {
-
-}
-
 
 .fa-repeat {
   padding: 0.25em;
@@ -116,7 +112,12 @@ li a:hover {
   position: absolute;
 }
 
+.size_hover:hover~.size_menu {
+  display: block;
+}
+
 .size_menu {
+  display: none;
   position: absolute;
   margin: 0;
   width: 3em;
@@ -126,6 +127,7 @@ li a:hover {
 }
 
 .color_menu {
+  display: none;
   position: absolute;
   left: 144px;
   top: -97px;

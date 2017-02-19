@@ -35,21 +35,34 @@ img {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  width: 15em;
 }
 
 a {
   box-sizing: border-box;
-  display: block;
   color: rgb(111,222,222);
   text-decoration: none;
   padding: 1em;
   border: 1px solid black;
   margin: 0;
+  float: left;
+  width: 3em;
+  height: 3em;
+  background-color: rgb(255,255,255)
+}
+
+.shirt_info::after {
+  content: '';
+  display: block;
+  clear: both;
 }
 
 .shirt_info {
   position: relative;
   border: 1px solid black;
+  float: left;
+  display: block;
+  width: 15em;
 }
 
 .style_price {
@@ -78,6 +91,34 @@ a {
   color: rgb(111,222,222);
   padding: 1em;
   clear: both;
+}
+
+.size_menu:nth-child(2) {
+  opacity: 0;
+  width: 3em;
+  position: absolute;
+  top: 40px;
+  left: 98px;
+  transition: opacity 0.5s linear;
+/* FIXME:  */
+}
+
+.color_menu:nth-child(2)  {
+  opacity: 0;
+  width: 6em;
+  position: absolute;
+  top: 136px;
+  left: 146px;
+  transition: opacity 0.5s linear;
+
+  /* FIXME:  */
+}
+.size_hover:hover > .size_menu {
+  opacity: 1;
+
+}
+.color_menu:hover {
+  opacity: 1;
 }
 
 /*li {
@@ -120,9 +161,12 @@ a:hover {
 
 .fa-repeat {
   padding: 0.25em;
-  float: right;
   font-size: 1em;
+  left: 216px;
   position: absolute;
+  text-align: right;
+  width: 1.5em;
+  height: 1.5em;
 }
 
 /*.size_hover:hover~.size_menu {

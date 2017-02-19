@@ -16,9 +16,9 @@ main {
 
 .shirt_box {
   padding: 0;
-  border-left: 3px solid rgb(111,222,222);
-  border-right: 3px solid rgb(111,222,222);
-  border-top: 3px solid rgb(111,222,222);
+  border-left: 3px solid rgb(129,188,230);
+  border-right: 3px solid rgb(129,188,230);
+  border-top: 3px solid rgb(129,188,230);
   width: 15em;
   position: relative;
 }
@@ -33,7 +33,7 @@ img {
 
 a {
   box-sizing: border-box;
-  color: rgb(111,222,222);
+  color: rgb(129,188,230);
   text-decoration: none;
   padding: 1em;
   margin: 0;
@@ -52,7 +52,7 @@ a {
 .shirt_info {
   padding: 0;
   position: relative;
-  border: 3px solid rgb(111,222,222);
+  border: 3px solid rgb(129,188,230);
   float: left;
   display: block;
   width: 15em;
@@ -71,7 +71,7 @@ a {
   font-weight: bold;
   float: right;
   text-align: right;
-  color: rgb(111,222,222);
+  color: rgb(129,188,230);
   padding-top: 1em;
   padding-bottom: 1em;
   margin: 0;
@@ -82,7 +82,7 @@ a {
   float: left;
   margin: 0;
   text-align: left;
-  color: rgb(111,222,222);
+  color: rgb(129,188,230);
   padding-top: 1em;
   padding-bottom: 1em;
   clear: both;
@@ -95,7 +95,7 @@ a {
   top: -205px;
   left: 96px;
   transition: opacity 0.5s linear;
-  border: 3px solid rgb(111,222,222);
+  border: 3px solid rgb(129,188,230);
   z-index: 4;
 }
 
@@ -106,7 +106,7 @@ a {
   top: -109px;
   left: 145px;
   transition: opacity 0.5s linear;
-  border: 3px solid rgb(111,222,222);
+  border: 3px solid rgb(129,188,230);
   z-index: 4;
 }
 .size_hover:hover > .size_menu {
@@ -117,7 +117,7 @@ a {
 }
 
 a:hover {
-  background-color: rgb(111,222,222);
+  background-color: rgb(129,188,230);
   color: white;
 }
 
@@ -129,8 +129,8 @@ a:hover {
   text-align: right;
   width: 1.5em;
   height: 1.5em;
-  border-left: 3px solid rgb(111,222,222);
-  border-bottom: 3px solid rgb(111,222,222);
+  border-left: 3px solid rgb(129,188,230);
+  border-bottom: 3px solid rgb(129,188,230);
   z-index: 3;
 
 }
@@ -159,40 +159,40 @@ a:hover {
   left: 8px;
   border-width: 15px 15px 0;
   border-style: solid;
-  border-color: rgb(111,222,222) transparent;
+  border-color: rgb(129,188,230) transparent;
   display: block;
   width: 0;
 }
 
 .cl_a  {
-  color: pink;
+  color: rgb(129,188,230);
 }
 
 .cl_a:hover {
-  background-color: rgb(111,222,222);
-  color: pink;
+  background-color: rgb(129,188,230);
+  color: rgb(129,188,230);
 }
 
 .cl_b {
-  color: orange;
+  color: rgb(212, 130, 170);
 }
 .cl_b:hover {
-  background-color: rgb(111,222,222);
-  color: orange;
+  background-color: rgb(129,188,230);
+  color: rgb(212, 130, 170);
 }
 
 .cl_c {
-  color: yellow;
+  color: rgb(218,175,124);
 }
 .cl_c:hover {
-  background-color: rgb(111,222,222);
-  color: yellow;
+  background-color: rgb(129,188,230);
+  color: rgb(218,175,124);
 }
 .cl_d {
-  color: blue;
+  color: rgb(114, 142, 91);
 }
 .cl_d:hover {
-  background-color: rgb(111,222,222);
-  color: blue;
+  background-color: rgb(129,188,230);
+  color: rgb(114, 142, 91);
 
 }

@@ -15,10 +15,11 @@ main {
 
 .shirt_box {
   padding: 0;
-  border: 3px solid rgb(111,222,222);
-
-  /*box-sizing: border-box;*/
+  border-left: 3px solid rgb(111,222,222);
+  border-right: 3px solid rgb(111,222,222);
+  border-top: 3px solid rgb(111,222,222);
   width: 15em;
+  position: relative;
 }
 
 /*ul {
@@ -109,6 +110,7 @@ a {
   top: -194px;
   left: 96px;
   transition: opacity 0.5s linear;
+  border: 3px solid rgb(111,222,222);
 /* FIXME:  */
 }
 
@@ -119,7 +121,7 @@ a {
   top: -100px;
   left: 145px;
   transition: opacity 0.5s linear;
-
+  border: 3px solid rgb(111,222,222);
   /* FIXME:  */
 }
 .size_hover:hover > .size_menu {
@@ -175,6 +177,8 @@ a:hover {
   text-align: right;
   width: 1.5em;
   height: 1.5em;
+  border-left: 3px solid rgb(111,222,222);
+  border-bottom: 3px solid rgb(111,222,222);
 }
 
 /*.size_hover:hover~.size_menu {

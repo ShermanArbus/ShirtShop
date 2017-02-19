@@ -89,7 +89,8 @@ a {
   float: right;
   text-align: right;
   color: rgb(111,222,222);
-  padding: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   margin: 0;
 
 }
@@ -99,7 +100,8 @@ a {
   margin: 0;
   text-align: left;
   color: rgb(111,222,222);
-  padding: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   clear: both;
 }
 
@@ -107,7 +109,7 @@ a {
   opacity: 0;
   width: 3em;
   position: absolute;
-  top: -194px;
+  top: -205px;
   left: 96px;
   transition: opacity 0.5s linear;
   border: 3px solid rgb(111,222,222);
@@ -118,7 +120,7 @@ a {
   opacity: 0;
   width: 6em;
   position: absolute;
-  top: -100px;
+  top: -109px;
   left: 145px;
   transition: opacity 0.5s linear;
   border: 3px solid rgb(111,222,222);

@@ -6,11 +6,12 @@ body {
   font-family: arial, sans-serif;
 }
 main {
-  margin: auto;
+  margin: 2em;
   padding: 0;
   box-sizing: border-box;
-  /*width: auto;*/
   width: 15em;
+  display: block;
+  float: left;
 }
 
 .shirt_box {
@@ -152,15 +153,15 @@ a:hover {
 
 
 .triangle-isosceles:after {
-    content: "";
-    position: absolute;
-    bottom: -15px;
-    left: 8px;
-    border-width: 15px 15px 0;
-    border-style: solid;
-    border-color: rgb(111,222,222) transparent;
-    display: block;
-    width: 0;
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 8px;
+  border-width: 15px 15px 0;
+  border-style: solid;
+  border-color: rgb(111,222,222) transparent;
+  display: block;
+  width: 0;
 }
 
 .cl_a  {

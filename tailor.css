@@ -97,8 +97,8 @@ a {
   opacity: 0;
   width: 3em;
   position: absolute;
-  top: 40px;
-  left: 98px;
+  top: -194px;
+  left: 96px;
   transition: opacity 0.5s linear;
 /* FIXME:  */
 }
@@ -107,17 +107,16 @@ a {
   opacity: 0;
   width: 6em;
   position: absolute;
-  top: 136px;
-  left: 146px;
+  top: -100px;
+  left: 145px;
   transition: opacity 0.5s linear;
 
   /* FIXME:  */
 }
 .size_hover:hover > .size_menu {
   opacity: 1;
-
 }
-.color_menu:hover {
+.color_hover:hover > .color_menu{
   opacity: 1;
 }
 

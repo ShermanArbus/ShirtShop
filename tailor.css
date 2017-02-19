@@ -55,6 +55,7 @@ a {
   float: left;
   display: block;
   width: 15em;
+  z-index: 5;
 }
 
 .style_price {
@@ -145,4 +146,52 @@ a:hover {
 
 .shirt_front:hover {
   opacity: 0;
+}
+
+
+
+
+.triangle-isosceles:after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 8px;
+    border-width: 15px 15px 0;
+    border-style: solid;
+    border-color: rgb(111,222,222) transparent;
+    display: block;
+    width: 0;
+}
+
+.cl_a  {
+  color: pink;
+}
+
+.cl_a:hover {
+  background-color: rgb(111,222,222);
+  color: pink;
+}
+
+.cl_b {
+  color: orange;
+}
+.cl_b:hover {
+  background-color: rgb(111,222,222);
+  color: orange;
+}
+
+.cl_c {
+  color: yellow;
+}
+.cl_c:hover {
+  background-color: rgb(111,222,222);
+  color: yellow;
+}
+.cl_d {
+  color: blue;
+}
+.cl_d:hover {
+  background-color: rgb(111,222,222);
+  color: blue;
+
 }

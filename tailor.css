@@ -22,18 +22,7 @@ main {
   position: relative;
 }
 
-/*ul {
-  box-sizing: border-box;
-  list-style-type: none;
-  clear: both;
-  margin: 0;
-  padding: 0;
-  color: rgb(111,222,222);
-  width: 15em;
-}*/
-
 img {
-  /*border: 3px solid rgb(111,222,222);*/
   display: block;
   padding: 0;
   margin: 0;
@@ -46,12 +35,6 @@ a {
   color: rgb(111,222,222);
   text-decoration: none;
   padding: 1em;
-  /*border-top: 3px solid rgb(111,222,222);*/
-
-
-  /*border-left: 3px solid rgb(111,222,222);
-  border-bottom: 3px solid rgb(111,222,222);*/
-
   margin: 0;
   float: left;
   width: 3em;
@@ -66,7 +49,6 @@ a {
 }
 
 .shirt_info {
-  /*box-sizing: border-box;*/
   padding: 0;
   position: relative;
   border: 3px solid rgb(111,222,222);
@@ -76,7 +58,6 @@ a {
 }
 
 .style_price {
-  /*border: 3px solid rgb(111,222,222);*/
   box-sizing: border-box;
   display: block;
   width: 15em;
@@ -113,7 +94,7 @@ a {
   left: 96px;
   transition: opacity 0.5s linear;
   border: 3px solid rgb(111,222,222);
-/* FIXME:  */
+  z-index: 4;
 }
 
 .color_menu:nth-child(2)  {
@@ -124,7 +105,7 @@ a {
   left: 145px;
   transition: opacity 0.5s linear;
   border: 3px solid rgb(111,222,222);
-  /* FIXME:  */
+  z-index: 4;
 }
 .size_hover:hover > .size_menu {
   opacity: 1;
@@ -133,43 +114,10 @@ a {
   opacity: 1;
 }
 
-/*li {
-  box-sizing: border-box;
-  float: left;
-  border: 3px solid rgb(111,222,222);
-  width: 3em;
-  height: 3em;
-  text-align: center;
-  margin: 0;
-  font-size: 1em;
-}
-*/
 a:hover {
   background-color: rgb(111,222,222);
   color: white;
 }
-
-/*.fa-user-circle:hover {
-  background-color: rgb(111,222,222);
-  color: white;
-}
-
-.fa-exchange:hover {
-  background-color: rgb(111,222,222);
-  color: white;
-}
-
-.fa-heart-o:hover {
-  background-color: rgb(111,222,222);
-  color: white;
-}
-
-.fa-shopping-cart:hover {
-  background-color: rgb(111,222,222);
-  color: white;
-}
-}*/
-
 
 .fa-repeat {
   padding: 0.25em;
@@ -181,35 +129,20 @@ a:hover {
   height: 1.5em;
   border-left: 3px solid rgb(111,222,222);
   border-bottom: 3px solid rgb(111,222,222);
-}
+  z-index: 3;
 
-/*.size_hover:hover~.size_menu {
-  display: block;
 }
-*/
-/*.size_menu {
-  display: none;
-  position: absolute;
-  margin: 0;
-  width: 3em;
-  top: -193px;
-  left: 96px;
-  background-color: rgb(222,222,111);
-}
-
-.color_menu {
-  display: none;
-  position: absolute;
-  left: 144px;
-  top: -97px;
-  width: 6em;
-  background-color: rgb(222,222,111);
-}*/
 .shirt_front {
   padding: 1em;
-
+  z-index: 2;
+  position: absolute;
+  top: 0;
 }
 .shirt_back {
   padding: 1em;
+  z-index: 1;
+}
 
+.shirt_front:hover {
+  opacity: 0;
 }

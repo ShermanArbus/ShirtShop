@@ -5,6 +5,7 @@ body {
   padding: 0;
   font-family: arial, sans-serif;
 }
+
 main {
   margin: 2em;
   padding: 0;
@@ -67,6 +68,7 @@ a {
   padding: 0em;
   clear: both;
 }
+
 .price {
   font-weight: bold;
   float: right;
@@ -75,7 +77,6 @@ a {
   padding-top: 1em;
   padding-bottom: 1em;
   margin: 0;
-
 }
 
 .styleName {
@@ -109,9 +110,11 @@ a {
   border: 3px solid rgb(129,188,230);
   z-index: 4;
 }
+
 .size_hover:hover > .size_menu {
   opacity: 1;
 }
+
 .color_hover:hover > .color_menu{
   opacity: 1;
 }
@@ -132,14 +135,15 @@ a:hover {
   border-left: 3px solid rgb(129,188,230);
   border-bottom: 3px solid rgb(129,188,230);
   z-index: 3;
-
 }
+
 .shirt_front {
   padding: 1em;
   z-index: 2;
   position: absolute;
   top: 0;
 }
+
 .shirt_back {
   padding: 1em;
   z-index: 1;
@@ -148,9 +152,6 @@ a:hover {
 .shirt_front:hover {
   opacity: 0;
 }
-
-
-
 
 .triangle-isosceles:after {
   content: "";
@@ -176,6 +177,7 @@ a:hover {
 .cl_b {
   color: rgb(212, 130, 170);
 }
+
 .cl_b:hover {
   background-color: rgb(129,188,230);
   color: rgb(212, 130, 170);
@@ -184,13 +186,16 @@ a:hover {
 .cl_c {
   color: rgb(218,175,124);
 }
+
 .cl_c:hover {
   background-color: rgb(129,188,230);
   color: rgb(218,175,124);
 }
+
 .cl_d {
   color: rgb(114, 142, 91);
 }
+
 .cl_d:hover {
   background-color: rgb(129,188,230);
   color: rgb(114, 142, 91);
